@@ -29,7 +29,7 @@ public class DefaultStageStandardConfiguration implements StageStandardConfigura
   private boolean enableQuickstart;
   private boolean disableUpdateCheck;
   private String version;
-  private String applicationId;
+  private String application;
   private boolean enableJarSplitting;
   private String jarSplittingExcludes;
   private String compileEncoding;
@@ -91,12 +91,12 @@ public class DefaultStageStandardConfiguration implements StageStandardConfigura
   }
 
   @Override
-  public String getApplicationId() {
-    return applicationId;
+  public String getApplication() {
+    return application;
   }
 
-  public void setApplicationId(String applicationId) {
-    this.applicationId = applicationId;
+  public void setApplication(String application) {
+    this.application = application;
   }
 
   @Override

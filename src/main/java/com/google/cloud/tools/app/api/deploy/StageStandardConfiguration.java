@@ -33,7 +33,7 @@ public interface StageStandardConfiguration {
 
   String getVersion();
 
-  String getApplicationId();
+  String getApplication();
 
   boolean isEnableJarSplitting();
 
