@@ -56,9 +56,6 @@ public class AppCfgAppEngineStandardStaging implements AppEngineStandardStaging 
     if (!Strings.isNullOrEmpty(configuration.getVersion())) {
       arguments.add("--version=" + configuration.getVersion().trim());
     }
-    if (!Strings.isNullOrEmpty(configuration.getApplication())) {
-      arguments.add("--application=" + configuration.getApplication().trim());
-    }
     if (configuration.isEnableJarSplitting()) {
       arguments.add("--enable_jar_splitting");
     }

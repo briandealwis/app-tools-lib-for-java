@@ -91,15 +91,6 @@ public class DefaultStageStandardConfiguration implements StageStandardConfigura
   }
 
   @Override
-  public String getApplication() {
-    return application;
-  }
-
-  public void setApplication(String application) {
-    this.application = application;
-  }
-
-  @Override
   public boolean isEnableJarSplitting() {
     return enableJarSplitting;
   }
