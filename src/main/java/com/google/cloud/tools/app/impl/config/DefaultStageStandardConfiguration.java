@@ -29,7 +29,6 @@ public class DefaultStageStandardConfiguration implements StageStandardConfigura
   private boolean enableQuickstart;
   private boolean disableUpdateCheck;
   private String version;
-  private String application;
   private boolean enableJarSplitting;
   private String jarSplittingExcludes;
   private String compileEncoding;
