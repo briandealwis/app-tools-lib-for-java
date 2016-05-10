@@ -9,7 +9,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <bundle.symbolicname>com.google.cloud.tools.app.java</bundle.symbolicname>
   </properties>
 
   <distributionManagement>
@@ -104,7 +103,7 @@
         <version>3.0.1</version>
         <configuration>
           <instructions>
-            <Bundle-SymbolicName>${bundle.symbolicname}</Bundle-SymbolicName>
+            <Bundle-SymbolicName>com.google.cloud.tools.app.lib</Bundle-SymbolicName>
             <Bundle-RequiredExecutionEnvironment>JavaSE-1.7</Bundle-RequiredExecutionEnvironment>
           </instructions>
         </configuration>
