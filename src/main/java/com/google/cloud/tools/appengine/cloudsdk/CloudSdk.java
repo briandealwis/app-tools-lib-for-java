@@ -200,11 +200,11 @@ public class CloudSdk {
    */
   public void validate() throws AppEngineException {
     if (sdkPath == null) {
-      throw new AppEngineException("Validation Error: Sdk path is null");
+      throw new AppEngineException("Validation Error: SDK path is null");
     }
     if (sdkPath.toFile().isDirectory()) {
       throw new AppEngineException(
-          "Validation Error: Sdk directory '" + sdkPath + "' is not valid");
+          "Validation Error: SDK directory '" + sdkPath + "' is not valid");
     }
     if (getGCloudPath().toFile().isFile()) {
       throw new AppEngineException(
