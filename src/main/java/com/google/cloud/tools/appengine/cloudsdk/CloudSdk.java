@@ -212,7 +212,7 @@ public class CloudSdk {
       throw new AppEngineException(
           "Validation Error: dev_appserver.py path '" + getDevAppServerPath() + "' is not valid");
     }
-    if (!getJavaAppEngineSdkPath().toFile().isFile()) {
+    if (!getJavaAppEngineSdkPath().toFile().isDirectory()) {
       throw new AppEngineException(
           "Validation Error: Java App Engine SDK path '" + getJavaAppEngineSdkPath()
               + "' is not valid");
