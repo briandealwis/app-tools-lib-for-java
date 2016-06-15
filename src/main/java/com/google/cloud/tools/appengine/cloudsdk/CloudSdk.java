@@ -192,7 +192,7 @@ public class CloudSdk {
   }
 
   /**
-   * Validate the current instance
+   * Validate the current instance.
    * 
    * @throws CloudSdkConfigurationException if invalid
    */

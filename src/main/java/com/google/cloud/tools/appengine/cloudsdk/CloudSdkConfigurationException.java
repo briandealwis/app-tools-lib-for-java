@@ -28,10 +28,6 @@ public class CloudSdkConfigurationException extends RuntimeException {
     super(message, cause);
   }
 
-  public CloudSdkConfigurationException(Throwable cause) {
-    super(cause);
-  }
-
   protected CloudSdkConfigurationException(String message, Throwable cause,
       boolean enableSuppression, boolean writableStackTrace) {
     super(message, cause, enableSuppression, writableStackTrace);
